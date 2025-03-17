@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(to bottom, rgba(0, 123, 255, 0.7), rgba(255, 255, 255, 0.7)), url('image/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #333;
+}
+/* En-tête */
+header {
+    background-color: #007BFF; /* Bleu */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-bottom: 4px solid #0056b3; /* Légère séparation */
+}
+
+/* Titre principal */
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Sous-titre */
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+/* Navigation */
+nav {
+    background-color: #0056b3; /* Bleu foncé */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Affichage horizontal */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    background-color: #007BFF; /* Bleu plus clair */
+    border-radius: 5px; /* Coins arrondis */
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #003f7f; /* Bleu encore plus foncé au survol */
+}
+/* Ajustement des sections pour conserver le style actuel */
+section {
+    background: rgba(255, 255, 255, 0.9); /* Fond semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centrer le texte et l'image */
+}
+
+/* Style de l'image de profil */
+.profile-img {
+    width: 120px; /* Réduction de la taille */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 3px solid #007BFF; /* Bordure bleue */
+    display: block;
+}
+
+/* Conserver les couleurs personnalisées */
+#about {
+    background-color: rgba(0, 123, 255, 0.9);
+    color: white;
+}
+
+#skills {
+    background-color: rgba(40, 167, 69, 0.9);
+    color: white;
+}
+
+#projects {
+    background-color: rgba(220, 53, 69, 0.9);
+    color: white;
+}
+
+#contact {
+    background-color: rgba(255, 193, 7, 0.9);
+    color: black;
+}
